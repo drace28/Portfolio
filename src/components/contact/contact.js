@@ -1,10 +1,9 @@
 import React, { useRef } from "react";
 import './contact.css';
 import emailjs from '@emailjs/browser'
-import FacebookIcon from "../../assets/facebook-icon.png"
-import TwitterIcon from "../../assets/twitter.png"
-import GithubIcon from "../../assets/github-logo.png"
-import InstagramIcon from "../../assets/instagram.png"
+import navIcon1 from '../../assets/nav-icon1.svg'
+
+import giticon from '../../assets/github.svg'
 
 
 const Contact = () => {
@@ -32,11 +31,11 @@ const Contact = () => {
                     <input type="text" placeholder="Subject" className="subject" name='subject'/>
                     <textarea placeholder="Message" className="msg" rows="5" name='message'></textarea>
                     <button type="submit" value='Send' className="submitBtn">Send</button>
-                    <div className="links">
-                        <img src={FacebookIcon} alt="" className="link"></img>
-                        <img src={TwitterIcon} alt="" className="link"></img>
-                        <img src={GithubIcon} alt="" className="link"></img>
-                        <img src={InstagramIcon} alt="" className="link"></img>
+                    <div className="social-icon">
+                        <a href="https://www.linkedin.com/in/devashish-jindal-830400228/"><img src={navIcon1} alt=""></img></a>
+                        
+                        <a href="https://github.com/drace28"><img src={giticon} alt=""/></a>
+                        
                     </div>
                 </form>
 
