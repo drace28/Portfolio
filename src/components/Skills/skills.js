@@ -34,8 +34,10 @@ const Skills = () => {
                 <div className="skillBar">
                     <img src={AppDesign} alt="" className="skillBarImg" />
                     <div className="skillBarText">
-                        <h2>App Design</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                        <h2>Mobile App Developer</h2>
+                        <p><b>Frameworks:</b> Proficient in using cross-platform frameworks such as React Native or Flutter for efficient and simultaneous development of iOS and Android applications.</p>
+                        <p><b>UI/UX Principles:</b> Strong understanding of UI/UX principles to create visually appealing and user-friendly interfaces.</p>
+                        <p><b>Responsive Design:</b> Ensures responsive design for a seamless user experience across various devices and screen sizes.</p>
                     </div>
                 </div>
             </div>
