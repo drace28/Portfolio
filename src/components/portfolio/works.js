@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCard from './ProjectCard';
+import ProjectCard from "./Projectcard";
 import './works.css';
 import newsbuzz from '../../assets/newsbuzz.png'
 import techmo from '../../assets/techmo.png'

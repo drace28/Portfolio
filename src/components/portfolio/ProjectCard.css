@@ -1,45 +1,57 @@
 /* ProjectCard.css */
 
 .projectCard {
-    display: flex;
-    background-color: #1a1a2e; /* Dark blueish background color */
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    margin: 10px;
-    max-width: 600px; /* Adjust max-width as needed */
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .projectTitle {
-    flex: 1;
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .projectTitle h3 {
-    font-size: 1.5rem; /* Adjust font size as needed */
-    font-weight: bold;
-    margin-bottom: 8px;
-    color: #fff; /* White text color */
-  }
-  
-  .projectInfo {
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .projectInfo a {
-    text-decoration: none;
-    color: #61dafb; /* Light blue color for links */
-    margin-top: 8px; /* Adjust margin as needed */
-  }
-  
-  .projectInfo p {
-    font-size: 1rem;
-    color: #ccc; /* Light gray text color */
-    margin-top: 0;
-  }
-  
+  display: flex;
+  background: rgba(26, 26, 46, 0.9); /* Dark blueish color with 90% opacity */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 10px;
+  max-width: 600px; /* Adjust max-width as needed */
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+.projectCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0) 70%);
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.projectTitle {
+  align-items: center;
+  flex: 1;
+  padding: 16px;
+  display: flex;
+}
+
+.projectTitle h3 {
+  font-size: 1.5rem; /* Adjust font size as needed */
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #fff; /* White text color */
+}
+
+.projectInfo {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectInfo a {
+  text-decoration: none;
+  color: #61dafb; /* Light blue color for links */
+  margin-top: 8px; /* Adjust margin as needed */
+}
+
+.projectInfo p {
+  font-size: 1rem;
+  color: #ccc; /* Light gray text color */
+  margin-top: 0;
+}

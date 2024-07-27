@@ -9,7 +9,7 @@ const ProjectCard = ({ title, githubLink, liveLink, description }) => {
         <h3>{title}</h3>
       </div>
       <div className="projectInfo">
-        <a href={githubLink} target="_blank" rel="noopener noreferrer">Github</a> | <a href={liveLink} target="_blank" rel="noopener noreferrer">Live</a>
+        <div className='links-live'><a href={githubLink} target="_blank" rel="noopener noreferrer">Github</a> | <a href={liveLink} target="_blank" rel="noopener noreferrer">Live</a></div>
         <p>{description}</p>
       </div>
     </div>

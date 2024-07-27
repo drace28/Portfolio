@@ -24,10 +24,10 @@ const Intro = () => {
             <div className="introContent">
                 <span className="hello">Hello, I'm </span>
                 <span className="introName">Devashish Jindal</span><span className="introText">Software engineering student</span>
-                <p className="introPara">I am a passionate and dedicated third-year Computer Science student, eager to share my journey and experiences<br></br> in the world of technology. Over the years, I have honed my skills, tackled challenging projects, and explored various facets of <br></br>computer science, all of which I am excited to present to you in this portfolio.</p>
+                <p className="introPara">I am currently an Associate Manager at Strategyz Inc., where I've been gaining valuable experience in the industry for the past year.<br></br> My role involves strategic planning, project management, and driving key initiatives that align with our company's goals.<br></br> I am passionate about leveraging data-driven insights to enhance business strategies and optimize operations.<br></br> I am committed to delivering innovative solutions and achieving excellence in every project I undertake.</p>
                 <a href="Resume.pdf" download="Devashish Jindal.pdf" className="resume" >Download Resume </a> 
             </div>
-            <img src={bg} alt="Profile" className="bg" />
+            
         </section>
     )
     
